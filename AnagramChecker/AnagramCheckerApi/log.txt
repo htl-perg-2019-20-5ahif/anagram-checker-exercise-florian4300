@@ -1,0 +1,150 @@
+2019-10-06 18:19:56.896 +02:00 [INF] Now listening on: http://localhost:5000
+2019-10-06 18:19:56.951 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-06 18:19:56.951 +02:00 [INF] Hosting environment: Development
+2019-10-06 18:19:56.951 +02:00 [INF] Content root path: C:\Users\flo\Documents\Schule\OneDrive - HTBLA Perg\5AHIF\NVS\MC\anagram-checker-exercise-florian4300\AnagramChecker\AnagramCheckerApi
+2019-10-06 18:19:59.255 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2019-10-06 18:19:59.408 +02:00 [INF] Request finished in 160.52700000000002ms 404 
+2019-10-06 18:20:14.702 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 39
+2019-10-06 18:20:14.714 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-06 18:20:14.929 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:20:15.134 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:20:15.164 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 14.1651ms.
+2019-10-06 18:20:15.177 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-06 18:20:15.186 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 248.47140000000002ms
+2019-10-06 18:20:15.187 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-06 18:20:15.189 +02:00 [INF] Request finished in 486.8292ms 200 
+2019-10-06 18:20:21.751 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getKnown?w=cat  0
+2019-10-06 18:20:21.754 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:20:21.759 +02:00 [INF] Route matched with {action = "getKnown", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult getKnown(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:20:21.801 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:20:21.804 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3036000000000003ms.
+2019-10-06 18:20:21.808 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-10-06 18:20:21.816 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) in 56.0375ms
+2019-10-06 18:20:21.816 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:20:21.816 +02:00 [INF] Request finished in 65.509ms 200 application/json; charset=utf-8
+2019-10-06 18:20:25.904 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getKnown?w=cata  0
+2019-10-06 18:20:25.905 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:20:25.907 +02:00 [INF] Route matched with {action = "getKnown", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult getKnown(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:20:25.933 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:20:25.937 +02:00 [ERR] No Anagrams found
+2019-10-06 18:20:25.937 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 3.8053000000000003ms.
+2019-10-06 18:20:25.939 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2019-10-06 18:20:25.942 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) in 34.3179ms
+2019-10-06 18:20:25.942 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:20:25.943 +02:00 [INF] Request finished in 40.1571ms 404 application/problem+json; charset=utf-8
+2019-10-06 18:20:59.176 +02:00 [INF] Application is shutting down...
+2019-10-06 18:21:39.453 +02:00 [INF] Now listening on: http://localhost:5000
+2019-10-06 18:21:39.470 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-06 18:21:39.471 +02:00 [INF] Hosting environment: Development
+2019-10-06 18:21:39.471 +02:00 [INF] Content root path: C:\Users\flo\Documents\Schule\OneDrive - HTBLA Perg\5AHIF\NVS\MC\anagram-checker-exercise-florian4300\AnagramChecker\AnagramCheckerApi
+2019-10-06 18:21:40.609 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2019-10-06 18:21:40.732 +02:00 [INF] Request finished in 139.1618ms 404 
+2019-10-06 18:22:23.097 +02:00 [INF] Now listening on: http://localhost:5000
+2019-10-06 18:22:23.125 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-06 18:22:23.126 +02:00 [INF] Hosting environment: Development
+2019-10-06 18:22:23.126 +02:00 [INF] Content root path: C:\Users\flo\Documents\Schule\OneDrive - HTBLA Perg\5AHIF\NVS\MC\anagram-checker-exercise-florian4300\AnagramChecker\AnagramCheckerApi
+2019-10-06 18:22:24.135 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2019-10-06 18:22:24.263 +02:00 [INF] Request finished in 134.2404ms 404 
+2019-10-06 18:22:39.320 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getPermutations?w=abc  0
+2019-10-06 18:22:39.350 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi)'
+2019-10-06 18:22:39.461 +02:00 [INF] Route matched with {action = "GetPermutations", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetPermutations(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:22:39.610 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:22:39.625 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.2674ms.
+2019-10-06 18:22:39.631 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+<SelectManyIterator>d__180`3[[System.Char, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-10-06 18:22:39.656 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi) in 184.7132ms
+2019-10-06 18:22:39.657 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi)'
+2019-10-06 18:22:39.659 +02:00 [INF] Request finished in 339.2231ms 200 application/json; charset=utf-8
+2019-10-06 18:22:50.504 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getKnown?w=cata  0
+2019-10-06 18:22:50.507 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:22:50.512 +02:00 [INF] Route matched with {action = "getKnown", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult getKnown(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:22:50.538 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:22:50.540 +02:00 [ERR] No Anagrams found
+2019-10-06 18:22:50.540 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 1.8788ms.
+2019-10-06 18:22:50.541 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2019-10-06 18:22:50.544 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) in 32.054300000000005ms
+2019-10-06 18:22:50.544 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-06 18:22:50.544 +02:00 [INF] Request finished in 40.8303ms 404 application/problem+json; charset=utf-8
+2019-10-06 18:23:18.329 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 39
+2019-10-06 18:23:18.330 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-06 18:23:18.339 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-06 18:23:18.396 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-06 18:23:18.406 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 9.8564ms.
+2019-10-06 18:23:18.422 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-06 18:23:18.423 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 83.2889ms
+2019-10-06 18:23:18.423 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-06 18:23:18.424 +02:00 [INF] Request finished in 95.7686ms 200 
+2019-10-07 07:35:28.033 +02:00 [INF] Now listening on: http://localhost:5000
+2019-10-07 07:35:28.124 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-07 07:35:28.125 +02:00 [INF] Hosting environment: Development
+2019-10-07 07:35:28.126 +02:00 [INF] Content root path: C:\Users\flo\Documents\Schule\OneDrive - HTBLA Perg\5AHIF\NVS\MC\anagram-checker-exercise-florian4300\AnagramChecker\AnagramCheckerApi
+2019-10-07 07:35:32.164 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2019-10-07 07:35:32.396 +02:00 [INF] Request finished in 240.54690000000002ms 404 
+2019-10-07 07:37:13.034 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 39
+2019-10-07 07:37:13.071 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:37:13.266 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:37:13.538 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:37:13.565 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 13.430900000000001ms.
+2019-10-07 07:37:13.579 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 07:37:13.592 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 311.6263ms
+2019-10-07 07:37:13.593 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:37:13.596 +02:00 [INF] Request finished in 561.8140000000001ms 200 
+2019-10-07 07:38:51.073 +02:00 [INF] Now listening on: http://localhost:5000
+2019-10-07 07:38:51.108 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2019-10-07 07:38:51.109 +02:00 [INF] Hosting environment: Development
+2019-10-07 07:38:51.109 +02:00 [INF] Content root path: C:\Users\flo\Documents\Schule\OneDrive - HTBLA Perg\5AHIF\NVS\MC\anagram-checker-exercise-florian4300\AnagramChecker\AnagramCheckerApi
+2019-10-07 07:38:51.679 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 39
+2019-10-07 07:38:51.802 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:38:52.188 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:38:53.086 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2019-10-07 07:38:53.121 +02:00 [INF] Request finished in 33.3801ms 404 
+2019-10-07 07:38:53.537 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:38:53.607 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 28.765600000000003ms.
+2019-10-07 07:38:53.651 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 07:38:53.673 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 1455.0424ms
+2019-10-07 07:38:53.675 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:38:53.697 +02:00 [INF] Request finished in 2032.9643ms 200 
+2019-10-07 07:38:59.236 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 45
+2019-10-07 07:38:59.245 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:38:59.246 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:38:59.350 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:38:59.351 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkResult in 0.252ms.
+2019-10-07 07:38:59.352 +02:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-10-07 07:38:59.353 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 105.8482ms
+2019-10-07 07:38:59.354 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:38:59.354 +02:00 [INF] Request finished in 118.49560000000001ms 200 
+2019-10-07 07:39:06.687 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/checkAnagram application/json 41
+2019-10-07 07:39:06.731 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:39:06.734 +02:00 [INF] Route matched with {action = "CheckAnagram", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult CheckAnagram(AnagramCheckerApi.Words) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:39:06.827 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:39:06.829 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.BadRequestResult in 0.4436ms.
+2019-10-07 07:39:06.840 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2019-10-07 07:39:06.858 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi) in 123.6054ms
+2019-10-07 07:39:06.859 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.CheckAnagram (AnagramCheckerApi)'
+2019-10-07 07:39:06.859 +02:00 [INF] Request finished in 173.4883ms 400 application/problem+json; charset=utf-8
+2019-10-07 07:39:34.870 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getKnown?w=act  0
+2019-10-07 07:39:34.871 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-07 07:39:34.883 +02:00 [INF] Route matched with {action = "getKnown", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult getKnown(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:39:34.963 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:39:34.968 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.4579ms.
+2019-10-07 07:39:34.969 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-10-07 07:39:34.971 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) in 87.7856ms
+2019-10-07 07:39:34.971 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-07 07:39:34.971 +02:00 [INF] Request finished in 101.7355ms 200 application/json; charset=utf-8
+2019-10-07 07:39:47.450 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getKnown?w=silent  0
+2019-10-07 07:39:47.451 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-07 07:39:47.452 +02:00 [INF] Route matched with {action = "getKnown", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult getKnown(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:39:47.513 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:39:47.515 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.7659ms.
+2019-10-07 07:39:47.517 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-10-07 07:39:47.520 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi) in 66.5715ms
+2019-10-07 07:39:47.520 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.getKnown (AnagramCheckerApi)'
+2019-10-07 07:39:47.522 +02:00 [INF] Request finished in 70.87270000000001ms 200 application/json; charset=utf-8
+2019-10-07 07:39:54.805 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/getPermutations?w=abc  0
+2019-10-07 07:39:54.807 +02:00 [INF] Executing endpoint 'AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi)'
+2019-10-07 07:39:54.815 +02:00 [INF] Route matched with {action = "GetPermutations", controller = "Anagram"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetPermutations(System.String) on controller AnagramCheckerApi.Controllers.AnagramController (AnagramCheckerApi).
+2019-10-07 07:39:54.884 +02:00 [INF] Executing action method AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi) - Validation state: "Valid"
+2019-10-07 07:39:54.904 +02:00 [INF] Executed action method AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 18.94ms.
+2019-10-07 07:39:54.905 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Linq.Enumerable+<SelectManyIterator>d__180`3[[System.Char, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2019-10-07 07:39:54.910 +02:00 [INF] Executed action AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi) in 94.91430000000001ms
+2019-10-07 07:39:54.910 +02:00 [INF] Executed endpoint 'AnagramCheckerApi.Controllers.AnagramController.GetPermutations (AnagramCheckerApi)'
+2019-10-07 07:39:54.910 +02:00 [INF] Request finished in 105.3114ms 200 application/json; charset=utf-8
